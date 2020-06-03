@@ -1,0 +1,29 @@
+Script started, file is 0001-mytest.txt
+$ PS1="$ "
+$ echo $GitHubUser
+zxrsvy
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200603-171408-55e3-shella.gabriella/>
+$ PS1="\$(eval \$PSTAMP)"
+200603-171413-7dd2-shella.gabriella/> date
+Wed Jun  3 17:15:17 WIB 2020
+200603-171517-f049-shella.gabriella/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/s/shella.gabriella/.gnupg/pubring.gpg
+--------------------------------------------------------------
+pub   4096R/FCCE04A0 2020-02-24
+uid       [ultimate] Shella Gabriella (Shella) <shella.gabriella@ui.ac.id>
+sub   4096R/4E5E705A 2020-02-24
+
+pub   2048R/28E0EE21 2020-06-03
+uid       [ultimate] Shella Gabriella <shellagabriella21@yahoo.com>
+sub   2048R/7A066379 2020-06-03
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200603-171536-9a3a-shella.gabriella/> exit
+exit
+Script done, file is 0001-mytest.txt
