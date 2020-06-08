@@ -1,5 +1,5 @@
-Script started, file is 0001-mytest.txt
-$ PS1="$ "
+Script started on Wed 03 Jun 2020 05:13:39 PM WIB
+shella.gabriella@badak:~$ PS1="$ "
 $ echo $GitHubUser
 zxrsvy
 $ echo $PSTAMP
@@ -26,4 +26,5 @@ sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 
 200603-171536-9a3a-shella.gabriella/> exit
 exit
-Script done, file is 0001-mytest.txt
+
+Script done on Wed 03 Jun 2020 05:15:43 PM WIB
